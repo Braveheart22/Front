@@ -1,0 +1,55 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 500;
+    padding: 16px;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    margin-right: auto;
+    transition: ease-in-out 0.3s;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav li {
+    margin-right: 20px;
+}
+
+.nav-link a {
+    color: #6a7988;
+    margin-right: auto;
+    font-family: "Lato", sans-serif;
+}
+
+.head {
+    background:
+    linear-gradient(175deg, rgba(255,255,255,0) 70%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%),
+    linear-gradient(124deg, rgba(255, 255, 255, 0) 73%, rgba(238, 242, 246, 0.8) 30%, rgba(238, 242, 246, 0.5) 100%),
+    linear-gradient(353deg, rgba(255, 255, 255, 1) 30%, rgba(242, 242, 242, 0.5) 30%, rgba(242, 242, 242, 1) 100%);
+    height: 700px;
+}
+
+.btn-primary i {
+    padding-right: 8px;
+}
+
+.learnMore {
+    color: #3379ff;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+}
