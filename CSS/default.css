@@ -14,6 +14,10 @@
     --gradient-2: #7DBCFF;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -29,6 +33,11 @@ body {
 ::after,
 ::before {
     box-sizing: border-box;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color:  inherit;
 }
 
 ul {
