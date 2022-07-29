@@ -1,3 +1,4 @@
+/*Hover effect*/
 .navbar {
     position: fixed;
     top: 0;
@@ -39,11 +40,15 @@
     font-family: "Lato", sans-serif;
 }
 
+.nav-link.btn-primary a {
+    color: white;
+}
+
 .head {
     background:
-    linear-gradient(175deg, rgba(255,255,255,0) 70%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%),
-    linear-gradient(124deg, rgba(255, 255, 255, 0) 73%, rgba(238, 242, 246, 0.8) 30%, rgba(238, 242, 246, 0.5) 100%),
-    linear-gradient(353deg, rgba(255, 255, 255, 1) 30%, rgba(242, 242, 242, 0.5) 30%, rgba(242, 242, 242, 1) 100%);
+    linear-gradient(175deg, rgba(255,255,255,0) 75%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%),
+    linear-gradient(125deg, rgba(255, 255, 255, 0) 68%, rgba(238, 242, 246, 0.8) 25%, rgba(238, 242, 246, 0.5) 100%),
+    linear-gradient(353deg, rgba(255, 255, 255, 1) 25%, rgba(242, 242, 242, 0.5) 30%, rgba(242, 242, 242, 1) 100%);
     padding: 150px;
 }
 
@@ -51,13 +56,101 @@
     padding-right: 8px;
 }
 
+.head-wrapper {
+    width: 320px;
+}
+
 .head-wrapper h1 {
     font-size: 50px;
     font-weight: 600;
     color: black;
+    line-height: 55px;
+    margin-bottom: 0;
 }
-.learnMore {
+
+.head-wrapper p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.learn-more {
     color: #3379ff;
+    font-weight: 900;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.key-benefits {
+    padding: 100px 0;
+}
+
+.benefits-heading {
+    text-align: center;
+}
+
+.benefits-heading h2 {
+    color: black;
+    font-size: 30px;
     font-weight: 600;
-    font-family: "Lato", sans-serif;
+    margin-bottom: 8px;
+}
+
+.benefits-heading p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.benefits-grid .card-wrapper {
+    display: block;
+}
+
+.benefits-card {
+    border-radius: 5px;
+    box-shadow: 0 0 20px lightgray;
+    padding: 25px;
+    transition: all .3s;
+}
+
+.card-wrapper {
+    display: block;
+}
+
+.benefits-card:hover {
+	margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.benefits-card img {
+    height: 50px;
+    width: 50px;
+}
+
+.benefits-card .sketch {
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 5px;
+    background: #00c5a5;
+    color: white;
+    padding: 10px;
+    padding: 1px 8px;
+    border-radius: 20px;
+}
+
+.benefits-card h4 {
+    color: black;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.benefits-card .learn-more {
+    margin-left: 0;
+    font-size: 13px;
 }

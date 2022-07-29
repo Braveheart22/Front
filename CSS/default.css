@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 0.875rem;
     line-height: 1.6;
@@ -83,7 +83,7 @@ img {
 .btn-primary {
     background: #3379ff;
     color: var(--white);
-    padding: 0.4375rem 1.5625rem;
+    padding: 10px 15px;
 }
 
 @media (min-width: 1200px) {
