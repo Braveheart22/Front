@@ -118,10 +118,6 @@
     transition: all .3s;
 }
 
-.card-wrapper {
-    display: block;
-}
-
 .benefits-card:hover {
 	margin-top: -10px;
     margin-bottom: 10px;
@@ -152,4 +148,17 @@
 .benefits-card .learn-more {
     margin-left: 0;
     font-size: 13px;
+}
+
+.software {
+    background-color: #f8f9fb;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.software-wrapper {
+}
+
+.software-wrapper img {
+    width: 700px;
 }
