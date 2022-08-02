@@ -55,9 +55,16 @@ p {
 }
 
 h2 {
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 1.2;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+h4 {
+    color: black;
+    font-size: 17px;
+    margin-bottom: 0;
 }
 
 img {
@@ -85,7 +92,7 @@ img {
     background-color: transparent;
     border: 1px solid transparent;
     padding: 7px 25px;
-    border-radius: 20px;
+    border-radius: 50px;
     transition: ease-in-out 0.3s;
 }
 
