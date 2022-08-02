@@ -159,12 +159,14 @@
     width: 800px;
 }
 
-.why-front h2 {
+.why-front h2,
+p {
     text-align: center;
 }
 
 .timeline {
     display: flex;
+    justify-content: center;
 }
 
 .circle-element {
@@ -175,7 +177,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;
+    margin: 0 20px;
     background: #e9f2ff;
     width: 50px;
     height: 50px;
@@ -198,7 +200,7 @@
 .line {
     background: #e9f2ff;
     width: 200px;
-    border: 2px solid #e9f2ff;
+    border: 1px solid #e9f2ff;
 }
 
 .why-front img {
