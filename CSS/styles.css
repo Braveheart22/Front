@@ -57,7 +57,7 @@
 }
 
 .head-wrapper {
-    width: 320px;
+    width: 350px;
 }
 
 .head-wrapper h1 {
@@ -87,13 +87,6 @@
 
 .benefits-heading {
     text-align: center;
-}
-
-.benefits-heading h2 {
-    color: black;
-    font-size: 40px;
-    font-weight: 600;
-    margin-bottom: 8px;
 }
 
 .benefits-heading p {
@@ -139,26 +132,88 @@
     border-radius: 20px;
 }
 
-.benefits-card h4 {
-    color: black;
-    font-size: 17px;
-    margin-bottom: 0;
-}
-
 .benefits-card .learn-more {
     margin-left: 0;
     font-size: 13px;
 }
 
 .software {
-    background-color: #f8f9fb;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 50px;
+    margin-bottom: 150px;
 }
 
 .software-wrapper {
+    background-color: #f8f9fb;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-right: 0;
 }
 
-.software-wrapper img {
-    width: 700px;
+.call-to-action {
+    width: 400px;
+    margin-left: 60px;
+}
+
+.call-to-action h3 {
+    font-size: 33px;
+    font-weight: 600;
+    color: black;
+    line-height: 40px;
+}
+
+.call-to-action a {
+    font-weight: 600;
+    font-size: 17px;
+    padding: 10px 25px;
+}
+
+.software img {
+    width: 800px;
+}
+
+.why-front h2 {
+    text-align: center;
+}
+
+.timeline {
+    display: flex;
+}
+
+.circle-element {
+    text-align: center;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: #e9f2ff;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.center-circle {
+    background: #568eff;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+}
+
+.line-wrapper {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.line {
+    background: #e9f2ff;
+    width: 200px;
+    border: 2px solid #e9f2ff;
+}
+
+.why-front img {
+    margin-top: 65px;
 }
