@@ -213,3 +213,21 @@ p {
     margin-top: 65px;
     margin-bottom: 100px;
 }
+.testimonial .christina-wrapper {
+    z-index: 100;
+}
+
+.testimonial .christina {
+    width: 500px;
+    border-radius: 4px;
+}
+
+.testimonial .dots-wrapper {
+    z-index: -100;
+}
+
+.testimonial .dots {
+    height: 500px;
+    margin-left: -494px;
+    margin-top: -426px;
+}
