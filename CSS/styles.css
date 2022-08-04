@@ -209,7 +209,17 @@ p {
     border: 1px solid #e9f2ff;
 }
 
-.why-front img {
+.video .play {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 10px rgba(64, 64, 64, 1);
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+}
+
+.video img {
     margin-top: 65px;
     margin-bottom: 100px;
 }
@@ -228,7 +238,7 @@ p {
 }
 
 .testimonial .dots {
-    height: 500px;
+    height: 425px;
     margin-left: -493px;
-        margin-top: 200px;
+    margin-top: 200px;
 }
