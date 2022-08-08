@@ -223,6 +223,15 @@ p {
     margin-top: 65px;
     margin-bottom: 100px;
 }
+.testimonial p {
+    text-align: initial;
+}
+
+.testimonial .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
 .testimonial .christina-wrapper {
     z-index: 100;
 }
@@ -239,6 +248,9 @@ p {
 
 .testimonial .dots {
     height: 425px;
-    margin-left: -493px;
+    margin-left: -223px;
     margin-top: 200px;
+}
+.right-side img {
+    max-width: 100px;
 }
