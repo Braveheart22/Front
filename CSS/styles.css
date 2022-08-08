@@ -254,12 +254,12 @@ p {
 .right-side img {
     max-width: 100px;
     margin-top: 100px;
-        margin-bottom: 25px;
+    margin-bottom: 25px;
     }
     
     .right-side .quote {
         font-size: 30px;
-        line-height: 40px;
+        line-height: 45px;
     }
     
     .right-side .title {
