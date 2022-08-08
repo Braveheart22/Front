@@ -39,6 +39,9 @@
     font-family: "Lato", sans-serif;
 }
 
+.nav-link.btn a {
+    color: #ffffff;
+}
 .head {
     background:
     linear-gradient(175deg, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 1) 100%),
