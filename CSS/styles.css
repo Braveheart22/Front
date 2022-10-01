@@ -217,10 +217,10 @@ p {
     height: 50px;
     background-color: white;
     border-radius: 25px;
-    box-shadow: 0 0 10px 10px rgba(64, 64, 64, 1);
+    box-shadow: 0 0 10px 1px rgba(128, 128, 128, 0.5);
     position: absolute;
     left: 50%;
-        margin-top: 296px;
+    margin-top: 296px;
     text-align: center;
     line-height: 50px;
 }
@@ -230,6 +230,9 @@ p {
     margin-bottom: 100px;
 }
 
+.testimonial {
+    margin-top: 20px;
+}
 .testimonial p {
     text-align: initial;
 }
