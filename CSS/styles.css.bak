@@ -184,20 +184,25 @@ p {
 		position: absolute;
 	}
 	
-	.labels.basicElements {
-		margin-left: -12px;
+	.labels .basicElements {
+		margin-left: -20px;
 	}
 	
-	.labels.components {
-		margin-left: -4px;
+	.labels .components {
+		margin-left: -5px;
+	}
+	
+	.labels .combined {
+		margin-left: -50px;
+	}
+	
+	.labels .pageLayout {
+		margin-left: -10px;
 }
 
-.labels.combined {
-	margin-left: -43px;
-}
-
-.labels.pageLayout {
-	margin-left: -3px;
+.circle-element {
+	width: 100px;
+	text-align: center;
 }
 
 .circle {
@@ -239,13 +244,13 @@ p {
 		box-shadow: 0 0 10px 1px rgba(128, 128, 128, 0.5);
 		position: absolute;
 		left: 50%;
-		margin-top: 345px;
-			text-align: center;
-			line-height: 50px;
+		margin-top: 296px;
+		text-align: center;
+		line-height: 50px;
 }
 
 .video img {
-	margin-top: 120px;
+	margin-top: 65px;
 		margin-bottom: 100px;
 }
 
