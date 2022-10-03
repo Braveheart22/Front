@@ -364,5 +364,10 @@ p {
 
 .price {
 	padding: 50px;
-	box-shadow: 0 0 10px 1px rgba(128, 128, 128, 0.5);
+	box-shadow: 0 20px 20px 1px rgba(128, 128, 128, 0.5);
+	}
+	
+	.price h2 {
+		font-size: 50px;
+		display: inline;
 }
