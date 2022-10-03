@@ -82,7 +82,8 @@ img {
     margin-right: auto;
 }
 
-.btn {
+.btn,
+.btn:hover {
     display: inline-block;
     font-weight: 400;
     color: var(--font-color-dark);
@@ -96,7 +97,8 @@ img {
     transition: ease-in-out 0.3s;
 }
 
-.btn-primary {
+.btn-primary,
+.btn-primary:hover {
     background: #3379ff;
     color: var(--white);
     padding: 10px 15px;

@@ -98,7 +98,7 @@
 
 .benefits-card {
 	border-radius: 5px;
-	box-shadow: 0px 10px 2px 10px #f6f6f6;
+	box-shadow: 0px 10px 20px 0px #f7f7f7;
 	padding: 25px;
 	transition: all .3s;
 }
@@ -154,12 +154,17 @@
 	line-height: 40px;
 }
 
-.call-to-action a {
+.call-to-action a,
+.call-to-action a:hover {
 	font-weight: 600;
 	font-size: 17px;
 	padding: 10px 25px;
 }
 
+.call-to-action a:hover {
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
 .software img {
 	width: 800px;
 }
