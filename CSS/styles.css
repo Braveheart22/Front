@@ -334,7 +334,7 @@ p {
 	border: none;
 	margin-top: 120px;
 	max-width: 1150px;
-	background-color: lightgray;
+	background-color: #e6e6e6;
 }
 
 .pricing-title,
@@ -350,6 +350,19 @@ p {
 }
 
 .pricing-text {
+	font-size: 16px;
 	font-weight: 900;
-	color: ##B0AEBE;
+	color: #B0AEBE;
+}
+
+.pricing-info {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	gap: 50px;
+	margin-top: 100px;
+}
+
+.price {
+	padding: 50px;
+	box-shadow: 0 0 10px 1px rgba(128, 128, 128, 0.5);
 }
