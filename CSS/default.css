@@ -74,6 +74,11 @@ img {
     border-style: none;
 }
 
+hr {
+    height: 1px;
+    border: none;
+    background-color: #e6e6e6;
+}
 .container {
     width: 100%;
     padding-left: 15px;

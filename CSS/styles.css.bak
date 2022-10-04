@@ -363,11 +363,23 @@ p {
 }
 
 .price {
+	text-align: left;
 	padding: 50px;
-	box-shadow: 0 10px 20px 1px rgba(128, 128, 128, 0.5);
-	}
-	
-	.price h2 {
-		font-size: 50px;
-		display: inline;
+	box-shadow: 0 20px 20px 1px rgba(128, 128, 128, 0.5);
+}
+.price span {
+	font-size: 18px;
+	color: black;
+}
+.price h2 {
+	font-size: 50px;
+	display: inline;
+}
+.price p {
+	text-align: left;
+	margin-bottom: 0px;
+}
+
+.hire-us {
+	margin-top: 100px;
 }
