@@ -330,11 +330,8 @@ p {
 }
 
 .trusted-by hr {
-	height: 1px;
-	border: none;
 	margin-top: 120px;
 	max-width: 1150px;
-	background-color: #e6e6e6;
 }
 
 .pricing-title,
@@ -362,15 +359,24 @@ p {
 	margin-top: 100px;
 }
 
+.pricing-info p {
+	text-align: left;
+	font-size: 15px;
+	font-weight: 600;
+	color: #B0AEBE;
+	padding-right: 10px;
+}
 .price {
 	text-align: left;
 	padding: 50px;
 	box-shadow: 0 20px 20px 1px rgba(128, 128, 128, 0.5);
+	max-width: 475px;
 }
 .price span {
 	font-size: 18px;
 	color: black;
 }
+
 .price h2 {
 	font-size: 50px;
 	display: inline;
@@ -378,6 +384,31 @@ p {
 .price p {
 	text-align: left;
 	margin-bottom: 0px;
+}
+
+.price a,
+.price a:hover {
+	font-weight: 600;
+	font-size: 17px;
+	padding: 10px 25px;
+}
+
+.price-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(200px, 1fr));
+	gap: 10px;
+}
+
+.price-grid img {
+	height: 40px;
+	width: 40px;
+}
+
+.price-grid h5 {
+	font-weight: 900;
+	font-size: 18px;
+	margin-top: 15px;
+	margin-bottom: 5px;
 }
 
 .hire-us {

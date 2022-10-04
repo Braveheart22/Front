@@ -355,16 +355,23 @@ p {
 .pricing-info {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-	gap: 50px;
 	margin-top: 100px;
 }
 
+.pricing-info p {
+	text-align: left;
+	font-size: 15px;
+	font-weight: 600;
+	color: #B0AEBE;
+	padding-right: 10px;
+}
 .price {
 	text-align: left;
 	padding: 50px;
-	box-shadow: 0 20px 20px 1px rgba(128, 128, 128, 0.5);
-	max-width: 475px;
+	box-shadow: 0 15px 20px 1px rgba(128, 128, 128, 0.25);
+		max-width: 450px;
 }
+
 .price span {
 	font-size: 18px;
 	color: black;
@@ -374,6 +381,7 @@ p {
 	font-size: 50px;
 	display: inline;
 }
+
 .price p {
 	text-align: left;
 	margin-bottom: 0px;
@@ -386,6 +394,9 @@ p {
 	padding: 10px 25px;
 }
 
+.price p {
+	margin-top: 20px;
+}
 .price-grid {
 	display: grid;
 	grid-template-columns: repeat(2, minmax(200px, 1fr));
@@ -402,14 +413,6 @@ p {
 	font-size: 18px;
 	margin-top: 15px;
 	margin-bottom: 5px;
-}
-
-.price-grid p {
-	text-align: left;
-	font-size: 15px;
-	font-weight: 600;
-	color: #B0AEBE;
-	padding-right: 10px;
 }
 
 .hire-us {
