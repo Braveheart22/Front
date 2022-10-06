@@ -365,11 +365,12 @@ p {
 	color: #B0AEBE;
 	padding-right: 10px;
 }
+
 .price {
 	text-align: left;
 	padding: 50px;
 	box-shadow: 0 15px 20px 1px rgba(128, 128, 128, 0.25);
-		max-width: 450px;
+	max-width: 450px;
 }
 
 .price span {
@@ -397,6 +398,7 @@ p {
 .price p {
 	margin-top: 20px;
 }
+
 .price-grid {
 	display: grid;
 	grid-template-columns: repeat(2, minmax(200px, 1fr));
@@ -416,5 +418,16 @@ p {
 }
 
 .hire-us {
-	margin-top: 100px;
+	margin: 100px 50px 0px 50px;
+	background-size: cover;
+	background-color: #21325b;
+	background-image: url("../assets/abstract/hire-us-transparent-pattern-bg.svg");
+	border-radius: 5px;
+	height: 400px;
+	color: white;
+}
+
+.hire-us .container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
