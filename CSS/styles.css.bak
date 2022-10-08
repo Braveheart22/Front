@@ -170,7 +170,7 @@
 }
 
 .why-front h2,
-p {
+.why-front p {
 	text-align: center;
 }
 
@@ -419,14 +419,73 @@ p {
 
 .hire-us {
 	margin: 100px 50px 0px 50px;
-		background-size: cover;
-		background-color: #21325b;
-		background-image: url("../assets/abstract/hire-us-transparent-pattern-bg.svg");
-		border-radius: 5px;
-		height: 400px;
-		color: white;
+	background-size: cover;
+	background-color: #21325b;
+	background-image: url("../assets/abstract/hire-us-transparent-pattern-bg.svg");
+	border-radius: 5px;
+
+	color: white;
 }
-		.hire-us .container {
-			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-		}
+
+.hire-us .container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 20px;
+		padding: 100px 0px;
+	}
+	
+	.hire-us-testimonials {
+		width: 270px;
+		margin-left: 100px;
+	}
+	
+	.avatars {
+		display: flex;
+		justify-content: flex-start;
+	}
+	
+	.hire-us-testimonials .avatars img {
+		height: 30px;
+		width: 30px;
+		border-radius: 15px;
+		margin-right: 30px;
+	}
+	
+	.hire-us-testimonials .avatars .focus {
+		height: 40px;
+		width: 40px;
+		border-radius: 20px;
+	}
+	
+	.hire-us-form {
+		background-color: white;
+	}
+	
+	.hire-us-form .field-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		gap: 20px;
+	}
+	
+	.field-grid input,
+	.field-grid select {
+		padding: 0px 20px;
+		height: 45px;
+		border-radius: 5px;
+		border: #e7eaf3 solid 1px;
+	}
+	
+	.field-grid input::placeholder {
+		color: #97a4af;
+		opacity: 1;
+	}
+	
+	.hire-us-form .getStarted {
+		border-radius: 5px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	footer {
+		height: 500px;
+}
