@@ -18,7 +18,8 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+body,
+textarea {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 0.875rem;

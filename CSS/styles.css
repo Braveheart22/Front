@@ -470,26 +470,35 @@
 .hire-us-form .field-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 20px;
+	gap: 15px;
 }
 
 .field-grid input,
 .field-grid select,
 textarea {
-    padding: 0px 20px;
-    height: 45px;
+	margin-bottom: 10px;
     border-radius: 5px;
     border: #e7eaf3 solid 1px;
+	font-weight: 600;
 }
 
-.field-grid input::placeholder {
-    color: #97a4af;
-    opacity: 1;
+.field-grid input,
+.field-grid select {
+	padding: 0px 15px;
+	height: 45px;
+}
+
+.field-grid input::placeholder,
+.field-grid textarea::placeholder {
+	color: #97a4af;
+	opacity: 1;
 }
 
 .hire-us-form textarea {
     width: 100%;
     height: 100px;
+	padding: 15px 20px;
+		font-size: 15px;
 }
 
 .hire-us-form .getStarted {
