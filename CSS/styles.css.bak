@@ -423,7 +423,6 @@
 	background-color: #21325b;
 	background-image: url("../assets/abstract/hire-us-transparent-pattern-bg.svg");
 	border-radius: 5px;
-
 	color: white;
 }
 
@@ -431,61 +430,136 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	gap: 20px;
-		padding: 100px 0px;
-	}
-	
-	.hire-us-testimonials {
-		width: 270px;
+	padding: 100px 0px;
+}
+
+.hire-us-testimonials {
+	width: 325px;
 		margin-left: 100px;
-	}
-	
-	.avatars {
-		display: flex;
+}
+
+.hire-us-testimonials h1 {
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.hire-us-testimonials p {
+	color: #c5c8d2;
+	font-size: 17px;
+}
+
+.hire-us-testimonials hr {
+	width: 165px;
+	height: 1px;
+	margin: 30px 0px;
+	border: none;
+	background-color: #4e5b7c;
+}
+
+
+.hire-us-testimonials h3 {
+	font-size: 20px;
+	font-style: italic;
+}
+
+.hire-us-testimonials .credit {
+	color: white;
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+
+.hire-us-testimonials .job {
+	font-size: 13px;
+	margin-bottom: 65px;
+}
+.avatars {
+	display: flex;
 		justify-content: flex-start;
-	}
-	
-	.hire-us-testimonials .avatars img {
-		height: 30px;
-		width: 30px;
-		border-radius: 15px;
-		margin-right: 30px;
-	}
-	
-	.hire-us-testimonials .avatars .focus {
-		height: 40px;
+}
+
+.hire-us-testimonials .avatars img {
+	height: 40px;
 		width: 40px;
 		border-radius: 20px;
-	}
-	
-	.hire-us-form {
-		background-color: white;
-	}
-	
-	.hire-us-form .field-grid {
-		display: grid;
+		margin-right: 25px;
+		}
+		
+		.hire-us-testimonials .avatars .focus {
+			height: 50px;
+			width: 50px;
+			border-radius: 25px;
+}
+
+.hire-us-form {
+	background-color: white;
+	padding: 30px 50px;
+		border-radius: 5px;
+		width: 465px;
+}
+
+.hire-us-form h2 {
+	font-size: 21px;
+	line-height: 28px;
+		margin-bottom: 25px;
+}
+
+.hire-us-form .field-grid {
+	display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-		gap: 20px;
-	}
-	
-	.field-grid input,
-	.field-grid select {
-		padding: 0px 20px;
-		height: 45px;
-		border-radius: 5px;
+	gap: 15px;
+}
+
+.field-grid input,
+.field-grid select,
+textarea {
+	margin-bottom: 10px;
+	border-radius: 5px;
 		border: #e7eaf3 solid 1px;
+	font-weight: 600;
+}
+
+.field-grid input,
+.field-grid select {
+	padding: 0px 15px;
+	height: 45px;
+}
+
+.field-grid input::placeholder,
+.field-grid textarea::placeholder {
+	color: #97a4af;
+	opacity: 1;
+}
+
+.hire-us-form textarea {
+	width: 100%;
+		height: 100px;
+	padding: 15px 20px;
+	font-size: 15px;
+	margin-bottom: 25px;
 	}
 	
-	.field-grid input::placeholder {
+	.hire-us-form label {
 		color: #97a4af;
-		opacity: 1;
 	}
 	
-	.hire-us-form .getStarted {
-		border-radius: 5px;
+	.hire-us-form a,
+	.hire-us-form a:hover,
+	.hire-us-form a:focus,
+	.hire-us-form a:active {
+		text-decoration: underline dashed;
+}
+
+.hire-us-form .getStarted {
+	border-radius: 5px;
+		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
-	}
-	
-	footer {
-		height: 500px;
+	font-weight: 600;
+		font-size: 16px;
+		padding: 15px;
+		margin-top: 30px;
+}
+
+footer {
+	height: 500px;
 }
