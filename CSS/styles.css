@@ -569,7 +569,7 @@ footer .footer-top {
 	display: grid;
 	grid-template-columns: 28% repeat(4, 18%);
 	gap: 10px;
-	margin-bottom: 45px;
+	margin-bottom: 60px;
 }
 
 .footer-top .footer-col img {
@@ -586,6 +586,15 @@ footer .footer-top {
 	margin-bottom: 12px;
 }
 
+.footer-col .hiring {
+	font-weight: 600;
+	font-size: 10px;
+	padding: 3px 4px 5px 4px;
+	margin-left: 5px;
+	background: #377dff;
+	color: white;
+	border-radius: 4px;
+}
 .footer-top .footer-col h5 {
 	color: black;
 	font-size: 17px;
@@ -594,7 +603,7 @@ footer .footer-top {
 .footer-links {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 30px;
+	margin-top: 40px;
 	margin-bottom: 50px;
 }
 
