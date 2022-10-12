@@ -7,6 +7,20 @@
 	padding: 16px;
 }
 
+.navbar-toggler {
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	outline: none;
+	background-color: transparent;
+	border: 1px solid transparent;
+}
+
+.navbar-toggler span {
+	color: black;
+	cursor: pointer;
+}
+
 [aria-controls="navbarDropdown"] {
 	display: none;
 }
@@ -103,6 +117,7 @@
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 75px;
+	animation: icon-slide 400ms ease-in;
 }
 
 .icon-grid .logo-bg,
@@ -236,6 +251,9 @@
 	padding-right: 0;
 }
 
+.software-wrapper .for-people {
+	animation: icon-slide 400ms ease-in;
+}
 .call-to-action {
 	width: 400px;
 	margin-left: 60px;
@@ -751,4 +769,16 @@ footer .container .copyright {
 footer .container .copyright p {
 	text-align: center;
 	font-size: 13px;
+}
+/* Animations */
+@keyframes icon-slide {
+	0% {
+		transform: translateY(15%);
+		opacity: .25;
+	}
+
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
 }

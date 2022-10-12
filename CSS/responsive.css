@@ -1,0 +1,30 @@
+/* iPads and Tablets */
+@media screen and (max-width: 768px) {
+    [aria-controls="navbarDropdown"] {
+        display: none;
+    }
+
+    [aria-expanded="false"]~ul {
+        display: none;
+    }
+
+    [aria-expanded="true"]~ul {
+        display: block;
+    }
+
+    .icon-grid .google-a {
+        display: none;
+    }
+
+    .icon-grid .calendar {
+        display: none;
+    }
+
+    .head .container {
+        display: block;
+    }
+
+    .icon-grid {
+        margin-top: 20px;
+    }
+}

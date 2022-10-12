@@ -144,7 +144,7 @@
                     <h3>Front makes you look at things from a different perspectives</h3>
                     <a href="#" class="btn btn-primary getStarted">Get Started ></a>
                 </div>
-                    <img class="for-people" src="./assets/banners/banner_one.jpg" alt="banner">
+                <img class="for-people" src="./assets/banners/banner_one.jpg" alt="banner">
             </div>
         </section>
 
@@ -406,6 +406,17 @@
                 </div>
             </div>
         </footer>
+
+        <script>
+            const navButton = document.querySelector('button[aria-expanded]');
+
+            function toggleNav({ target }) {
+                const expanded = target.getAttribute('aria-expanded') === true || false;
+                navButton.setAttribute('aria-expanded', !expanded);
+            }
+
+            navButton.addEventListener('click', toggleNav);
+        </script>
 
     </body>
 </html>
