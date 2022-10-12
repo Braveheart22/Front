@@ -1,0 +1,39 @@
+/* iPads and Tablets */
+@media screen and (max-width: 768px) {
+    	[aria-controls="navbarDropdown"] {
+    		display: block;
+    	}
+
+    	[aria-expanded="false"]~ul {
+    		display: none;
+    	}
+
+    	[aria-expanded="true"]~ul {
+    		display: block;
+    		position: absolute;
+    		right: 0;
+    		top: 50px;
+    		text-align: right;
+    	}
+
+    	[aria-expanded="true"]~ul li a,
+    	[aria-expanded="true"]~ul li .selected {
+    		margin-right: 20px;
+    	}
+
+    	.icon-grid .google-a {
+    		display: none;
+    	}
+
+    	.icon-grid .calendar {
+    		display: none;
+    	}
+
+    	.head .container {
+    		display: block;
+    	}
+
+    	.icon-grid {
+    		margin-top: 20px;
+    	}
+}

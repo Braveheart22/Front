@@ -20,7 +20,7 @@
     </head>
     <body>
 
-        <nav class="navbar nav">
+        <nav class="navbar nav" id="topNav">
             <div class="container">
                 <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
                     <span>&#9776;</span>
@@ -33,16 +33,16 @@
                         <a href="#" class="selected">Home</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">Features</a>
+                        <a href="#key-benefits">Features</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">Learn</a>
+                        <a href="#why">Learn</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">Pricing</a>
+                        <a href="#pricing">Pricing</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">Hire Us</a>
+                        <a href="#hire-us">Hire Us</a>
                     </li>
                     <li class="nav-link btn btn-primary">
                         <a href="#">Buy Now</a>
@@ -89,7 +89,7 @@
         </section>
 
         <!-- Key Benefits section -->
-        <section class="key-benefits">
+        <section class="key-benefits" id="key-benefits">
             <div class="container">
                 <div class="benefits-heading">
                     <h2>Key Benefits</h2>   
@@ -149,7 +149,7 @@
         </section>
 
         <!-- Why Front -->
-        <section class="why-front">
+        <section class="why-front" id="why">
             <div class="container">
                 <h2>Why Front?</h2>
                 <p>Front is an incredibly beautiful, fully responsive, and mobile-first projects<br>on the web - it is the starting point for creative sites.</p>
@@ -243,7 +243,7 @@
         </section>
 
         <!-- Pricing section -->
-        <section>
+        <section id="pricing">
             <div class="container">
                 <h1 class="pricing-title">Pricing</h1>
                 <p class="pricing-text">No additional costs. Pay for what you use.</p>
@@ -286,7 +286,7 @@
         </section>
 
         <!-- Hire us section -->
-        <section class="hire-us">
+        <section class="hire-us" id="hire-us">
             <div class="container">
                 <div class="hire-us-testimonials">
                     <h1>Hire us</h1>
@@ -408,10 +408,19 @@
         </footer>
 
         <script>
+            const nav = document.getElementById("topNav");
+            window.onscroll = function () {
+                if (window.pageYOffset > 100) {
+                    nav.classList.add("sticky");
+                } else {
+                    nav.classList.remove("sticky");
+                }
+            }
+
             const navButton = document.querySelector('button[aria-expanded]');
 
-            function toggleNav({ target }) {
-                const expanded = target.getAttribute('aria-expanded') === true || false;
+            function toggleNav ({ target }) {
+                const expanded = target.getAttribute('aria-expanded') === 'true' || false;
                 navButton.setAttribute('aria-expanded', !expanded);
             }
 
