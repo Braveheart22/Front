@@ -11,10 +11,11 @@
 	background-color: white;
 	transition: ease-in-out 0.5s;
 }
+
 .navbar-toggler {
 	position: absolute;
 	right: 35px;
-		top: 25px;
+	top: 25px;
 	outline: none;
 	background-color: transparent;
 	border: 1px solid transparent;
@@ -101,7 +102,7 @@
 .head-wrapper h4 {
 	margin-top: 0px;
 	margin-bottom: 30px;
-	font-size: 20px;
+	font-size: 19px;
 	color: #6c7c8c;
 }
 
